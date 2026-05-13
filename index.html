@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Jash Raval — Full Stack AI Tech Lead</title>
 <meta name="description" content="Portfolio of Jash Raval — Full Stack AI Tech Lead with 7+ years building production AI systems, RAG pipelines, computer vision, and full-stack applications."/>
+<meta name="author" content="Jash Raval"/>
+<meta name="copyright" content="© 2025 Jash Raval. All rights reserved."/>
+<meta name="robots" content="noindex, nofollow"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet"/>
 <style>
@@ -467,6 +470,15 @@ var obs=new IntersectionObserver(function(entries){
   entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('visible')});
 },{threshold:0.08});
 reveals.forEach(function(el){obs.observe(el)});
+
+// Copyright protection
+document.addEventListener('contextmenu',function(e){e.preventDefault()});
+document.addEventListener('keydown',function(e){
+  if(e.ctrlKey&&(e.key==='u'||e.key==='s'||e.key==='c')){e.preventDefault()}
+  if(e.key==='F12')e.preventDefault();
+});
+document.addEventListener('copy',function(e){e.preventDefault()});
+console.log('%c⚠️ Copyright © 2025 Jash Raval. All rights reserved. Unauthorized copying is prohibited.','font-size:16px;color:red;font-weight:bold');
 </script>
 </body>
 </html>
